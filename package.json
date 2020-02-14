@@ -1,0 +1,19 @@
+{
+  "name": "beerbrew-js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": ["lib/**/*"],
+  "keywords": [],
+  "author": "@yitznewton",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
